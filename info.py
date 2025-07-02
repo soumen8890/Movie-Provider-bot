@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '20919625'))
 API_HASH = environ.get('API_HASH', '40168846bf06f4ff443f0f7a4182bf8d')
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7735245680:AAHx5zR5cJeQUhMmrwO7BdL92fdDMF0Ubho")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -57,7 +57,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "MovizTube")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Verify/token system
-VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( False )
+VERIFY = bool(environ.get('VERIFY', True)) # Verification On ( True ) / Off ( False )
 # HOWTOVERIFY = environ.get('HOWTOVERIFY', url='https://t.me/Ultroid_Official/18') 
 HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/+Cfu4Up17QYVmZDBl') # How to open tutorial link for verification
 
