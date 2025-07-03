@@ -21,12 +21,12 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "7735245680:AAHx5zR5cJeQUhMmrwO7BdL92fdDMF0
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://graph.org/file/8e130244dbe6b01127271-544b89982764a817f2.jpg https://graph.org/file/0eaee353096c2e61a1220-7ce2857a5f3361224b.jpg https://graph.org/file/b0ab4ec001d10c7f58664-c1815d32d67d942c80.jpg https://graph.org/file/64e96e9811d531214ec29-ad3865ad3118d6f868.jpg https://graph.org/file/c67c762ef903d51f0d615-64cccb470096f83390.jpg https://graph.org/file/9ca3443de0e8679248b92-3f8893c6a6d9a10c16.jpg https://graph.org/file/a958297eab2f782fc2315-04c9b66b3801752690.jpg')).split() #SAMPLE PIC
+PICS = (environ.get('PICS', 'https://graph.org/file/e4418a686e165ff3c049f-1a516a22e2db3ff2e2.jpg https://graph.org/file/45efa2f04029072801934-8d8f16cbac5bcb9eef.jpg https://graph.org/file/888894a49dd8530f4c860-40ec9c223056cdf8ce.jpg https://graph.org/file/2cf9be106083c1ba54718-eac1fa3c96ea48cfef.jpg https://graph.org/file/a157afd6a113ce93a5684-573706cc66e6001967.jpg https://graph.org/file/1753c642c09143ae11206-f9dbf0fc9ecf977d63.jpg https://graph.org/file/6363d1ce83908f25d94b2-69ab023dadd71ecc1b.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/e20b5fdaf217252964202.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/85d361ab4cb6511006022.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/86b7b7e2aa7e38f328902.jpg")
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/85d361ab4cb6511006022.mp4'))
-CODE = (environ.get('CODE', 'https://graph.org/file/c76e2a3de54bdedbd3d9e-5cf61dfddb276136cd.jpg'))
+CODE = (environ.get('CODE', 'https://graph.org/file/0ee1fc6eb9c5a856dfde3-f75a7c9f1091bf0ad5.jpg'))
 
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', ''))
